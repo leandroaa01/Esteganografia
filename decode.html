@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo: Decodificador de Mensagem em Imagem PPM</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Decodificador de Mensagem</h1>
+        <div class="form-group">
+            <label for="fileInput">Selecione um arquivo PPM:</label>
+            <input type="file" id="fileInput" accept=".ppm">
+        </div>
+        <div class="form-group">
+            <label for="messageOutput">Mensagem Extraída:</label>
+            <textarea id="messageOutput" readonly></textarea>
+        </div>
+        <div class="form-group">
+            <button id="decodeBtn">Decodificar Mensagem</button>
+        </div>
+        <div class="form-group">
+            <a href="index.html" class="back-link">Voltar</a>
+        </div>
+    </div>
+    <script>
+        // script.js
+        document.addEventListener('DOMContentLoaded', () => {
+            const fileInput = document.getElementById('fileInput');
+            const messageOutput = document.getElementById('messageOutput');
+            const decodeBtn = document.getElementById('decodeBtn');
+
+            decodeBtn.addEventListener('click', async () => {
+                if (fileInput.files.length === 0) {
+                    alert('Por favor, selecione um arquivo PPM.');
+                    return;
+                }
+
+                const file = fileInput.files[0];
+                const imgContent = await readFile(file);
+                const image = new Image();
+                image.loadFromPPM(imgContent);
+
+                const message = image.decodeMsg();
+                messageOutput.value = message;
+            });
+
+            function readFile(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = () => resolve(reader.result);
+                    reader.onerror = reject;
+                    reader.readAsText(file);
+                });
+            }
+
+            class Image {
+                constructor() {
+                    this.pixel_array = [];
+                    this.width = 0;
+                    this.height = 0;
+                    this.max_color = 255;
+                    this.img_type = '';
+                }
+
+                loadFromPPM(content) {
+                    const lines = content.split('\n');
+                    this.img_type = lines[0];
+                    [this.width, this.height] = lines[1].split(' ').map(Number);
+                    this.max_color = Number(lines[2]);
+                    this.pixel_array = lines.slice(3).join('\n').trim().split(/\s+/).map(Number);
+                }
+
+                binToInt(bin) {
+                    return parseInt(bin, 2);
+                }
+
+                decodeMsg() {
+                    let msgLengthBits = '';
+                    for (let i = 0; i < 8; i++) {
+                        msgLengthBits += (this.pixel_array[i] % 2 === 0 ? '0' : '1');
+                    }
+                    const msgLength = this.binToInt(msgLengthBits);
+
+                    let msgBits = '';
+                    for (let i = 8; i < 8 + (msgLength * 8); i++) {
+                        msgBits += (this.pixel_array[i] % 2 === 0 ? '0' : '1');
+                    }
+
+                    let message = '';
+                    for (let i = 0; i < msgBits.length; i += 8) {
+                        const byte = msgBits.slice(i, i + 8);
+                        message += String.fromCharCode(this.binToInt(byte));
+                    }
+
+                    return message;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
