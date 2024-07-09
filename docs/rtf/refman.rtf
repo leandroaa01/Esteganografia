@@ -1,0 +1,1794 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\info 
+{\title {\comment Projeto ITP - Esteganografia  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}Projeto ITP - Esteganografia}
+{\comment Generated by doxygen 1.11.0.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Projeto ITP - Esteganografia}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Image} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines a dinamically allocated PPM image and provides various methods to manipulate and access the image data })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Pixel} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Struct that defines the pixel of a PPM image })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/{\b cod.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/{\b decod.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/{\b Image.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Header file used in both the encoding and decoding of PPM images using steganography })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Image Class Reference\par \pard\plain 
+{\tc\tcl2 \v Image}
+{\xe \v Image}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines a dinamically allocated PPM image and provides various methods to manipulate and access the image data. }}\par
+{
+{\f2 #include <Image.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Image} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Default constructor for the {\b Image} class. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Image} (int w, int h)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructor to initialize an image with given width and height. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b GetWidth} () const\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Gets the Width object. \par
+ }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b GetHeight} () const\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Gets the Height object. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AllocatePixels} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Memory allocation of the matrix of pixels, which is fundamental in defining any {\b Image} object. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b LiberatePixels} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Deallocates the memory previously allocated by the {\b AllocatePixels()} function, as well as the memory alocated by the array of the pixels' 'R', 'G' and 'B' values. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b GetPixels} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that fills in the matrix of pixels. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ExtensionCheck} (const string &input_text, const string &file_type)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that checks if a string ends with the valid substring. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b PrintPPM} () const\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that prints out the parameters of a PPM image. Mostly used for testing purposes. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b CreatePPM} () const\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that creates a string containing all the data of a PPM image. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ReadPPM} (const string &file_name)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Reads and dynamically stores the content of an image from a valid PPM file. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b ShowArray} () const\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that outputs a previously defined array of 'R', 'G' and 'B' values. Mostly used for testing purposes. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b IntToBin} (int num, int bits=8)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that receives an integer value and converts it to binary. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b CodeMsg} (string msg)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Main function used in encrypting and hiding an ASCII message inside the least significant bits (LSB) of a PPM image's pixels. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b BinToInt} (string bin_num, int index=0)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursive function used to convert a binary value into an integer value. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b DecodeMsg} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Main function used in uncovering and decrypting an ASCII message inside the least significant bits (LSB) of a PPM image's pixels. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines a dinamically allocated PPM image and provides various methods to manipulate and access the image data. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Image\:Image}
+{\xe \v Image\:Image}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Image::Image (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Default constructor for the {\b Image} class. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 43 : width(0), height(0), pixel({\cf17 nullptr}), pixel_array({\cf17 nullptr}) \{\}\par
+}
+}
+{\xe \v Image\:Image}
+{\xe \v Image\:Image}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Image::Image (int w, int h){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructor to initialize an image with given width and height. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+< This variable defines the size of the array of pixels, counting each R, G and B value as a separate unit of the array.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 48                         : width(w), height(h)\par
+49     \{\par
+50         size = (width * height) * 3; \par
+51     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v AllocatePixels\:Image}
+{\xe \v Image\:AllocatePixels}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::AllocatePixels (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Memory allocation of the matrix of pixels, which is fundamental in defining any {\b Image} object. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 73     \{\par
+74         pixel = {\cf17 new} Pixel *[height];\par
+75         {\cf19 for} ({\cf18 int} i = 0; i < height; i++)\par
+76         \{\par
+77             pixel[i] = {\cf17 new} Pixel[width];\par
+78         \}\par
+79     \}\par
+}
+}
+{\xe \v BinToInt\:Image}
+{\xe \v Image\:BinToInt}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Image::BinToInt (string bin_num, int index = {\f2 0}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursive function used to convert a binary value into an integer value. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i bin_num} \cell }{String containing the binary value that will be converted into an integer. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i index} \cell }{The index of the string. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+the sum of the current and subsequent values acquired recursively. \par
+}}}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Base case: if the index reaches the end of the binary string. \par
+Recursive call to calculate the value of the current and subsequent binary digits.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 357     \{\par
+359         {\cf19 if} (index == bin_num.length())\par
+360         \{\par
+361             {\cf19 return} 0;\par
+362         \}\par
+363 \par
+365         {\cf18 int} value_current = (bin_num[index] - {\cf23 '0'}) * pow(2, bin_num.length() - 1 - index);\par
+366         {\cf18 int} value_subsequent = BinToInt(bin_num, index + 1);\par
+367 \par
+368         {\cf19 return} value_current + value_subsequent;\par
+369     \}\par
+}
+}
+{\xe \v CodeMsg\:Image}
+{\xe \v Image\:CodeMsg}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::CodeMsg (string msg){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Main function used in encrypting and hiding an ASCII message inside the least significant bits (LSB) of a PPM image's pixels. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i msg} \cell }{Message that will be stored inside the image. \cell }
+{\row }
+}
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjThe number of characters in the message. \par
+}{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjArray that stores the ASCII values of each of the message's characters. \par
+}Fills in the chars[] array.\par
+Stores the binary value of the number of characters in the message.\par
+Modification of the first 8 bits of the array of 'R', 'G' and 'B' values, which store the message's size.\par
+Modifies the bits of the array of 'R', 'G' and 'B' values which will store the actual message.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjIndex for each of the message's bits. \par
+}}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 289     \{\par
+290         {\cf18 int} t = msg.size(); \par
+291         {\cf18 int} chars[t]; \par
+294         {\cf19 for} ({\cf18 int} i = 0; i < t; ++i)\par
+295         \{\par
+296             chars[i] = (int)msg[i];\par
+297         \}\par
+298 \par
+300         {\cf18 string} bin = IntToBin(t);\par
+301 \par
+303         {\cf19 for} ({\cf18 int} i = 0; i < 8 && i < size; ++i)\par
+304         \{\par
+305             {\cf19 if} (bin[i] == {\cf23 '1'})\par
+306             \{\par
+307                 {\cf19 if} (pixel_array[i] % 2 == 0)\par
+308                 \{\par
+309                     pixel_array[i]++;\par
+310                 \}\par
+311             \}\par
+312             {\cf19 else}\par
+313             \{\par
+314                 {\cf19 if} (pixel_array[i] % 2 != 0)\par
+315                 \{\par
+316                     pixel_array[i]++;\par
+317                 \}\par
+318             \}\par
+319         \}\par
+320 \par
+322         {\cf18 int} bit_index = 0; \par
+323         {\cf19 for} ({\cf18 int} j = 0; j < t; ++j)\par
+324         \{\par
+325             bin = IntToBin(chars[j]);\par
+326             {\cf19 for} ({\cf18 int} i = 0; i < 8 && (bit_index + 8) < size; ++i, ++bit_index)\par
+327             \{\par
+328                 {\cf19 if} (bin[i] == {\cf23 '1'})\par
+329                 \{\par
+330                     {\cf19 if} (pixel_array[bit_index + 8] % 2 == 0)\par
+331                     \{\par
+332                         pixel_array[bit_index + 8]++;\par
+333                     \}\par
+334                 \}\par
+335                 {\cf19 else}\par
+336                 \{\par
+337                     {\cf19 if} (pixel_array[bit_index + 8] % 2 != 0)\par
+338                     \{\par
+339                         pixel_array[bit_index + 8]++;\par
+340                         {\cf19 if} (pixel_array[bit_index + 8] == 255)\par
+341                         \{\par
+342                             pixel_array[bit_index + 8]--;\par
+343                         \}\par
+344                     \}\par
+345                 \}\par
+346             \}\par
+347         \}\par
+348     \}\par
+}
+}
+{\xe \v CreatePPM\:Image}
+{\xe \v Image\:CreatePPM}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Image::CreatePPM () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that creates a string containing all the data of a PPM image. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+all the information needed to define a PPM image. \par
+}}}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Gets the pixels from a previously defined array of pixels.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 170     \{\par
+171         stringstream img_content;\par
+172 \par
+173         img_content << {\cf22 "P3"} << endl;\par
+174         img_content << width << {\cf22 " "} << height << endl;\par
+175         img_content << max_color << endl;\par
+176 \par
+178         {\cf19 for} ({\cf18 int} i = 0; i < size; i += 3)\par
+179         \{\par
+180             img_content << pixel_array[i] << {\cf22 " "} << pixel_array[i + 1] << {\cf22 " "} << pixel_array[i + 2] << {\cf22 " "};\par
+181             {\cf19 if} ((i / 3 + 1) % width == 0)\par
+182             \{\par
+183                 img_content << endl; \par
+184             \}\par
+185         \}\par
+186         {\cf19 return} img_content.str();\par
+187     \}\par
+}
+}
+{\xe \v DecodeMsg\:Image}
+{\xe \v Image\:DecodeMsg}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::DecodeMsg (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Main function used in uncovering and decrypting an ASCII message inside the least significant bits (LSB) of a PPM image's pixels. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjString that stores the size of the message in binary. \par
+}Gets (in binary) the size of the message stored in the image from the first 8 bits of it's pixels' 'R', 'G' and 'B' values, previously stored in an array.\par
+Adds the character '0' to bin_size.\par
+Adds the character '1' to bin_size.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjString that stores the ASCII message in binary. \par
+}{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the size of the image as an integer value. \par
+}Gets (in binary) the message stored in the image, using the message's size and using the array of the pixels' 'R', 'G' and 'B' values.\par
+Adds the character '0' to bin_msg.\par
+Adds the character '1' to bin_msg.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjString that stores the completely decoded message. \par
+}Repeats the process below until every character of the message has been decoded and stored.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores a binary value of a single character. \par
+}Gets 8 bits (or a single character) from the message in binary, then adds up so it does the same to the next bit (if there is a next bit).\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the decoded ASCII character as a char. \par
+}Pushes a new decoded character into the string that stores the message.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 375     \{\par
+376         {\cf18 string} bin_size; \par
+379         {\cf19 for} ({\cf18 int} i = 0; i < 8; ++i)\par
+380         \{\par
+381             {\cf19 if} (pixel_array[i] % 2 == 0)\par
+382             \{\par
+383                 bin_size.push_back({\cf23 '0'}); \par
+384             \}\par
+385             {\cf19 else}\par
+386             \{\par
+387                 bin_size.push_back({\cf23 '1'}); \par
+388             \}\par
+389         \}\par
+390 \par
+391         {\cf18 string} bin_msg; \par
+392         {\cf18 int} msg_size = BinToInt(bin_size); \par
+395         {\cf19 for} ({\cf18 int} i = 8; i < 8 + (msg_size * 8); ++i)\par
+396         \{\par
+397             {\cf19 if} (pixel_array[i] % 2 == 0)\par
+398             \{\par
+399                 bin_msg.push_back({\cf23 '0'}); \par
+400             \}\par
+401             {\cf19 else}\par
+402             \{\par
+403                 bin_msg.push_back({\cf23 '1'}); \par
+404             \}\par
+405         \}\par
+406 \par
+407         {\cf18 string} decoded_msg; \par
+410         {\cf19 for}({\cf18 int} j = 0; j < msg_size; ++j) \par
+411         \{   \par
+412             {\cf18 string} bin_char; \par
+415             {\cf19 for}({\cf18 int} i = 0; i < 8; ++i) \par
+416             \{\par
+417                 bin_char.push_back(bin_msg[i + (8 * j)]);\par
+418             \}\par
+419 \par
+420             {\cf18 char} single_char = BinToInt(bin_char); \par
+423             decoded_msg.push_back(single_char); \par
+424         \}\par
+425         cout << {\cf22 "\\033[94mA mensagem escondida \'E9: \\033[0m"} + decoded_msg << {\cf22 "\\n"};\par
+426     \}\par
+}
+}
+{\xe \v ExtensionCheck\:Image}
+{\xe \v Image\:ExtensionCheck}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Image::ExtensionCheck (const string & input_text, const string & file_type){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that checks if a string ends with the valid substring. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i input_text} \cell }{Text inputed into the function, which is to be checked. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i file_type} \cell }{The substring which you wish to check if exists in the end of a given string. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+true if the substring exists in the end of the given string, false otherwise. \par
+}}}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 128     \{\par
+129         {\cf19 if} (input_text.length() >= file_type.length()) \par
+130             \{\par
+131             {\cf19 return} (input_text.compare(input_text.length() - file_type.length(), file_type.length(), file_type) == 0);\par
+132             \} \par
+133         {\cf19 else} \par
+134             \{\par
+135             {\cf19 return} {\cf17 false};\par
+136             \}\par
+137     \}\par
+}
+}
+{\xe \v GetHeight\:Image}
+{\xe \v Image\:GetHeight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Image::GetHeight () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Gets the Height object. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 65     \{ \par
+66         {\cf19 return} height; \par
+67     \}\par
+}
+}
+{\xe \v GetPixels\:Image}
+{\xe \v Image\:GetPixels}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::GetPixels (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that fills in the matrix of pixels. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 107     \{\par
+108         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+109         \{\par
+110             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+111             \{\par
+112                 {\cf18 int} r, g, b;\par
+113                 cin >> r >> g >> b;\par
+114                 pixel[h][w].r = r;\par
+115                 pixel[h][w].g = g;\par
+116                 pixel[h][w].b = b;\par
+117             \}\par
+118         \}\par
+119     \}\par
+}
+}
+{\xe \v GetWidth\:Image}
+{\xe \v Image\:GetWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Image::GetWidth () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Gets the Width object. \par
+ }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 57     \{ \par
+58         {\cf19 return} width; \par
+59     \}\par
+}
+}
+{\xe \v IntToBin\:Image}
+{\xe \v Image\:IntToBin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Image::IntToBin (int num, int bits = {\f2 8}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that receives an integer value and converts it to binary. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i num} \cell }{Integer value to be converted into binary. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i bits} \cell }{The max size of the returned binary value. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+a string containing the binary representation of the number received. \par
+}}}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Base case: when there are no more bits to convert.\par
+Determines the current bit in binary.\par
+Recursive call to calculate the subsequent bits in binary.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 268     \{\par
+270         {\cf19 if} (bits == 0)\par
+271         \{\par
+272             {\cf19 return} {\cf22 ""};\par
+273         \}\par
+274         \par
+276         {\cf18 int} bit_current = num % 2;\par
+277 \par
+279         {\cf18 string} bit_subsequent = IntToBin(num / 2, bits - 1);\par
+280 \par
+281         {\cf19 return} bit_subsequent + (bit_current == 0 ? {\cf23 '0'} : {\cf23 '1'});\par
+282     \}\par
+}
+}
+{\xe \v LiberatePixels\:Image}
+{\xe \v Image\:LiberatePixels}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::LiberatePixels (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Deallocates the memory previously allocated by the {\b AllocatePixels()} function, as well as the memory alocated by the array of the pixels' 'R', 'G' and 'B' values. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Deallocates the memory utilized by the array of the pixels' 'R', 'G' and 'B' values, used in the {\b CreatePPM()}, {\b ReadPPM()}, {\b ShowArray()}, {\b CodeMsg()} and {\b DecodeMsg()} functions.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 85     \{\par
+86         {\cf19 if} (pixel != {\cf17 nullptr})\par
+87         \{\par
+88             {\cf19 for} ({\cf18 int} i = 0; i < height; i++)\par
+89             \{\par
+90                 {\cf17 delete}[] pixel[i];\par
+91             \}\par
+92             {\cf17 delete}[] pixel;\par
+93             pixel = {\cf17 nullptr};\par
+94         \}\par
+96         {\cf19 if} (pixel_array != {\cf17 nullptr})\par
+97         \{\par
+98             {\cf17 delete}[] pixel_array;\par
+99             pixel_array = {\cf17 nullptr};\par
+100         \}\par
+101     \}\par
+}
+}
+{\xe \v PrintPPM\:Image}
+{\xe \v Image\:PrintPPM}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::PrintPPM () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that prints out the parameters of a PPM image. Mostly used for testing purposes. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 143     \{\par
+144         cout << {\cf22 "\\033[94mDados da imagem: \\033[0m\\n"};\par
+145         cout << {\cf22 "\\033[33m- Comprimento: \\033[0m\\n"} << width << endl;\par
+146         cout << {\cf22 "\\033[33m- Largura: \\033[0m\\n"} << height << endl;\par
+147         cout << {\cf22 "\\033[33m- Tipo de imagem: \\033[0m\\n"} << img_type << endl;\par
+148         cout << {\cf22 "\\033[33m- Valor m\'E1ximo de cor: \\033[0m\\n"} << max_color << endl;\par
+149         cout << {\cf22 "\\033[33m- Valor RGB de cada pixel:\\033[0m\\n"}; \par
+150 \par
+151         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+152         \{\par
+153             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+154             \{\par
+155                 Pixel p = pixel[h][w];\par
+156                 cout << (int)p.r << {\cf22 " "};\par
+157                 cout << (int)p.g << {\cf22 " "};\par
+158                 cout << (int)p.b << {\cf22 "   "};\par
+159             \}\par
+160             cout << endl;\par
+161         \}\par
+162         cout << endl;\par
+163     \}\par
+}
+}
+{\xe \v ReadPPM\:Image}
+{\xe \v Image\:ReadPPM}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Image::ReadPPM (const string & file_name){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Reads and dynamically stores the content of an image from a valid PPM file. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i file_name} \cell }{The name of a PPM file previously stored inside the source folder, which will be read by the function. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+true if the image was successfully read, false otherwise. \par
+}}}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Tests if the file does exist inside the source folder.\par
+Tests if the file is in fact a P3/PPM file by looking at it's content.\par
+Memory allocation of the array of pixels, used in decodification and codification.\par
+Reads and stores in an array the pixels' 'R', 'G' and 'B' values.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 195     \{\par
+197         ifstream file(file_name);\par
+198         {\cf19 if} (!file)\par
+199         \{\par
+200             cerr << {\cf22 "\\033[31mErro de leitura. O arquivo"} << file_name << {\cf22 " n\'E3o existe.\\033[0m\\n"}; \par
+201             {\cf19 return} {\cf17 false};\par
+202         \}\par
+203 \par
+204         {\cf18 string} file_type;\par
+205         file >> file_type;\par
+206 \par
+207     \par
+208 \par
+210         {\cf19 if} (file_type != {\cf22 "P3"})\par
+211         \{\par
+212             cerr << {\cf22 "\\033[31mErro de leitura. O arquivo "} << file_name << {\cf22 " n\'E3o \'E9 uma imagem PPM no formato P3.\\033[0m\\n"} << endl; \par
+213             {\cf19 return} {\cf17 false};\par
+214         \}\par
+215 \par
+216         file >> width >> height >> max_color;\par
+217         size = width * height * 3;\par
+218 \par
+219         AllocatePixels();\par
+220 \par
+222         pixel_array = {\cf17 new} {\cf18 int}[size];\par
+223         {\cf18 int} index = 0;\par
+224 \par
+225         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+226         \{\par
+227             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+228             \{\par
+229                 {\cf18 int} r, g, b;\par
+230                 file >> r >> g >> b;\par
+231                 pixel[h][w].r = r;\par
+232                 pixel[h][w].g = g;\par
+233                 pixel[h][w].b = b;\par
+235                 pixel_array[index++] = r;\par
+236                 pixel_array[index++] = g;\par
+237                 pixel_array[index++] = b;\par
+238             \}\par
+239         \}\par
+240         file.close();\par
+241         {\cf19 return} {\cf17 true};\par
+242     \}\par
+}
+}
+{\xe \v ShowArray\:Image}
+{\xe \v Image\:ShowArray}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Image::ShowArray () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Function that outputs a previously defined array of 'R', 'G' and 'B' values. Mostly used for testing purposes. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 248     \{\par
+249         {\cf19 if} (pixel_array == {\cf17 nullptr})\par
+250         \{\par
+251             cout << {\cf22 "Array n\'E3o inicializado."} << endl;\par
+252             {\cf19 return};\par
+253         \}\par
+254         {\cf19 for} ({\cf18 int} i = 0; i < size; i += 3)\par
+255         \{\par
+256             cout << {\cf22 "Pixel ["} << i / 3 << {\cf22 "]: R = "} << pixel_array[i] << {\cf22 ", G = "} << pixel_array[i + 1]\par
+257                  << {\cf22 ", B = "} << pixel_array[i + 2] << endl;\par
+258         \}\par
+259     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/{\b Image.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Pixel Struct Reference\par \pard\plain 
+{\tc\tcl2 \v Pixel}
+{\xe \v Pixel}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Struct that defines the pixel of a PPM image. }}\par
+{
+{\f2 #include <Image.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+unsigned char {\b r}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+unsigned char {\b g}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+unsigned char {\b b}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Struct that defines the pixel of a PPM image. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s80\li0\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i r,g,b} \cell }{Represents the numeric values of Red, Green and Blue of each pixel in a PPM image. \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Data Documentation\par
+\pard\plain 
+{\xe \v b\:Pixel}
+{\xe \v Pixel\:b}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+unsigned char Pixel::b}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v g\:Pixel}
+{\xe \v Pixel\:g}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+unsigned char Pixel::g}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v r\:Pixel}
+{\xe \v Pixel\:r}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+unsigned char Pixel::r}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/{\b Image.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/cod.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/cod.cpp}
+{\xe \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/cod.cpp}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <bits/stdc++.h>}\par
+{\f2 #include <filesystem>}\par
+{\f2 #include "../include/Image.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (int argc, char *argv[])\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Reads a PPM image, then saves a copy with an ASCII message encoded in the least significant bit (LSB) of it's pixels. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v main\:cod.cpp}
+{\xe \v cod.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (int argc, char * argv[])}}
+\par
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Reads a PPM image, then saves a copy with an ASCII message encoded in the least significant bit (LSB) of it's pixels. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i argc} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i argv} \cell }{\cell }
+{\row }
+}
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the message that will be stored inside the image. \par
+}{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the image by the parameters of the {\b Image} class. \par
+}{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores in a string the contents of the PPM image. \par
+}Tests if the file is in fact a P3/PPM file by looking at it's extension.\par
+Tests if the ReadPPM() function was successful, stops the encoding process otherwise.\par
+The message is inputed.\par
+The message is encoded.\par
+Tests if the a file with the same name already exists inside the source folder.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the choice to overwrite. The answer is 'no' by default. \par
+}Tests if the answer was 'no', then stops the encoding process if true.\par
+Tests if the file is open, if true, creates the PPM file and stores the modified content in it.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 14 \{\par
+15     {\cf19 if} (argc != 3)\par
+16     \{\par
+17         cout << {\cf22 "Uso: "} << argv[0] << {\cf22 " <nome_do_arquivo>"} <<{\cf22 " "} <<{\cf22 "nome_do_arquivo_resultante"} << endl;\par
+18         {\cf19 return} 1;\par
+19     \}\par
+20 \par
+21    \par
+22 \par
+23     {\cf18 string} img_name = argv[1];\par
+24     {\cf18 string} file_name = argv[2];  \par
+25     {\cf18 string} msg; \par
+26     Image img; \par
+27     ofstream file; \par
+28     {\cf18 string} img_content; \par
+30  {\cf20 // /** Tests if the file is in fact a P3/PPM file by looking at it's extension. */}\par
+31  {\cf19 if}(!img.ExtensionCheck(img_name, {\cf22 ".ppm"})) \par
+32     \{       \par
+33         cout << {\cf22 "\\033[1;31mTipo de arquivo de leitura inv\'E1lido.: "}+img_name +{\cf22 "\\033[0m\\n"};\par
+34         {\cf19 return} 1;\par
+35     \}\par
+36     {\cf19 if}(!img.ExtensionCheck(file_name, {\cf22 ".ppm"})) \par
+37     \{       \par
+38         cout << {\cf22 "\\033[1;31mTipo de arquivo de saida inv\'E1lido.: "}+file_name +{\cf22 "\\033[0m\\n"};\par
+39         {\cf19 return} 1;\par
+40     \}\par
+42     {\cf19 if} (img.ReadPPM(img_name))\par
+43     \{\par
+45         getline(cin, msg);\par
+47         img.CodeMsg(msg);\par
+48     \}\par
+49     {\cf19 else}\par
+50     \{\par
+51         cout << {\cf22 "\\033[1;31mArquivo original n\'E3o existe.\\033[0m\\n"};\par
+52         {\cf19 return} 1;\par
+53     \}\par
+54 \par
+56     {\cf19 if} (fs::exists(file_name))\par
+57     \{\par
+58         {\cf18 char} overwrite = {\cf23 'n'}; \par
+60         cout << {\cf22 "O arquivo "} << file_name << {\cf22 " j\'E1 existe. Deseja sobrescrev\'EA-lo? (s/n): "};\par
+61         cin >> overwrite;\par
+62 \par
+64         {\cf19 if} (overwrite != {\cf23 's'} && overwrite != {\cf23 'S'})\par
+65         \{\par
+66             std::cout << {\cf22 "\\033[1;31mArquivo resultante j\'E1 existe. Opera\'E7\'E3o cancelada.\\033[0m\\n"};\par
+67             {\cf19 return} 1;\par
+68         \}\par
+69     \}\par
+70 \par
+71     img_content = img.CreatePPM();\par
+72 \par
+74     file.open(file_name);\par
+75     {\cf19 if} (file.is_open())\par
+76     \{\par
+77         file << img_content;\par
+78         file.close();\par
+79         cout << {\cf22 "\\033[1;32mImagem gerada com sucesso: "} << file_name << {\cf22 "\\033[0m"} << endl;\par
+80        \par
+81     \} \par
+82     {\cf19 else} \par
+83     \{\par
+84         cout << {\cf22 "Erro ao criar o arquivo."} << endl;\par
+85     \}\par
+86 \par
+87     {\cf19 return} 0;\par
+88 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/decod.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/decod.cpp}
+{\xe \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/decod.cpp}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <bits/stdc++.h>}\par
+{\f2 #include <filesystem>}\par
+{\f2 #include "../include/Image.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (int argc, char *argv[])\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Prints out an ASCII message encoded in the least significant bit (LSB) of the pixels of a PPM image. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v main\:decod.cpp}
+{\xe \v decod.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (int argc, char * argv[])}}
+\par
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Prints out an ASCII message encoded in the least significant bit (LSB) of the pixels of a PPM image. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i argc} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i argv} \cell }{\cell }
+{\row }
+}
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Verifies if the number of arguments is correct.\par
+{\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \zwjStores the PPM image to be decoded. \par
+}Tests if the ReadPPM() function was successful, stops the decoding process otherwise.\par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 13 \{\par
+15     {\cf19 if} (argc != 2)\par
+16     \{\par
+17         cout << {\cf22 "Uso: "} << argv[0] << {\cf22 " <nome_do_arquivo>"} << endl;\par
+18         {\cf19 return} 1;\par
+19     \}\par
+20 \par
+21     {\cf18 string} img_name = argv[1];\par
+22     Image img; \par
+25     {\cf19 if} (img.ReadPPM(img_name))\par
+26     \{\par
+27         img.DecodeMsg();\par
+28     \}\par
+29    \par
+30     img.LiberatePixels();\par
+31 \par
+32     {\cf19 return} 0;\par
+33 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/Image.h File Reference\par \pard\plain 
+{\tc\tcl2 \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/Image.h}
+{\xe \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/Image.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Header file used in both the encoding and decoding of PPM images using steganography. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <bits/stdc++.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Pixel}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Struct that defines the pixel of a PPM image. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Image}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines a dinamically allocated PPM image and provides various methods to manipulate and access the image data. }}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Header file used in both the encoding and decoding of PPM images using steganography. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Lucas Anselmo ({\f2 lucas.anselmo.099@ufrn.edu.br}); Leandro Andrade ({\f2 leandro.andrade.401@ufrn.edu.br}) \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Version\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+0.1 \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Date\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+2024-07-08\par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Copyright\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Copyright (c) 2024 \par
+}}}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Image.h\par \pard\plain 
+{\tc\tcl2 \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/Image.h}
+{\xe \v D:/Usuario/OneDrive/Documentos/UFRN/ITP/esteganografia-lucas-e-malva/include/Image.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+11 {\cf21 #ifndef IMAGE_H}\par
+12 {\cf21 #define IMAGE_H}\par
+13 \par
+14 {\cf21 #include <bits/stdc++.h>}\par
+15 {\cf17 using namespace }std;\par
+16 \par
+21 {\cf17 struct }Pixel\par
+22 \{\par
+23     {\cf18 unsigned} {\cf18 char} r, g, b;\par
+24 \};\par
+25 \par
+29 {\cf17 class }Image\par
+30 \{\par
+31 {\cf17 private}:\par
+32     {\cf18 string} img_type = {\cf22 "P3"};\par
+33     {\cf18 int} width = 0, height = 0;\par
+34     {\cf18 int} max_color = 255;\par
+35     Pixel **pixel = {\cf17 nullptr};\par
+36     {\cf18 int} size = (width * height) * 3;\par
+37     {\cf18 int} *pixel_array = {\cf17 nullptr};\par
+38 \par
+39 {\cf17 public}:\par
+43     Image() : width(0), height(0), pixel(nullptr), pixel_array(nullptr) \{\}\par
+44 \par
+48     Image({\cf18 int} w, {\cf18 int} h) : width(w), height(h)\par
+49     \{\par
+50         size = (width * height) * 3; \par
+51     \}\par
+52 \par
+56     {\cf18 int} GetWidth(){\cf17  const }\par
+57 {\cf17     }\{ \par
+58         {\cf19 return} width; \par
+59     \}\par
+60 \par
+64     {\cf18 int} GetHeight(){\cf17  const }\par
+65 {\cf17     }\{ \par
+66         {\cf19 return} height; \par
+67     \}\par
+68 \par
+72     {\cf18 void} AllocatePixels()\par
+73     \{\par
+74         pixel = {\cf17 new} Pixel *[height];\par
+75         {\cf19 for} ({\cf18 int} i = 0; i < height; i++)\par
+76         \{\par
+77             pixel[i] = {\cf17 new} Pixel[width];\par
+78         \}\par
+79     \}\par
+80 \par
+84     {\cf18 void} LiberatePixels()\par
+85     \{\par
+86         {\cf19 if} (pixel != {\cf17 nullptr})\par
+87         \{\par
+88             {\cf19 for} ({\cf18 int} i = 0; i < height; i++)\par
+89             \{\par
+90                 {\cf17 delete}[] pixel[i];\par
+91             \}\par
+92             {\cf17 delete}[] pixel;\par
+93             pixel = {\cf17 nullptr};\par
+94         \}\par
+96         {\cf19 if} (pixel_array != {\cf17 nullptr})\par
+97         \{\par
+98             {\cf17 delete}[] pixel_array;\par
+99             pixel_array = {\cf17 nullptr};\par
+100         \}\par
+101     \}\par
+102 \par
+106     {\cf18 void} GetPixels()\par
+107     \{\par
+108         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+109         \{\par
+110             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+111             \{\par
+112                 {\cf18 int} r, g, b;\par
+113                 cin >> r >> g >> b;\par
+114                 pixel[h][w].r = r;\par
+115                 pixel[h][w].g = g;\par
+116                 pixel[h][w].b = b;\par
+117             \}\par
+118         \}\par
+119     \}\par
+120 \par
+127     {\cf18 bool} ExtensionCheck({\cf17 const} {\cf18 string} &input_text, {\cf17 const} {\cf18 string} &file_type) \par
+128     \{\par
+129         {\cf19 if} (input_text.length() >= file_type.length()) \par
+130             \{\par
+131             {\cf19 return} (input_text.compare(input_text.length() - file_type.length(), file_type.length(), file_type) == 0);\par
+132             \} \par
+133         {\cf19 else} \par
+134             \{\par
+135             {\cf19 return} {\cf17 false};\par
+136             \}\par
+137     \}\par
+138 \par
+142     {\cf18 void} PrintPPM(){\cf17  const}\par
+143 {\cf17     }\{\par
+144         cout << {\cf22 "\\033[94mDados da imagem: \\033[0m\\n"};\par
+145         cout << {\cf22 "\\033[33m- Comprimento: \\033[0m\\n"} << width << endl;\par
+146         cout << {\cf22 "\\033[33m- Largura: \\033[0m\\n"} << height << endl;\par
+147         cout << {\cf22 "\\033[33m- Tipo de imagem: \\033[0m\\n"} << img_type << endl;\par
+148         cout << {\cf22 "\\033[33m- Valor m\'E1ximo de cor: \\033[0m\\n"} << max_color << endl;\par
+149         cout << {\cf22 "\\033[33m- Valor RGB de cada pixel:\\033[0m\\n"}; \par
+150 \par
+151         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+152         \{\par
+153             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+154             \{\par
+155                 Pixel p = pixel[h][w];\par
+156                 cout << (int)p.r << {\cf22 " "};\par
+157                 cout << (int)p.g << {\cf22 " "};\par
+158                 cout << (int)p.b << {\cf22 "   "};\par
+159             \}\par
+160             cout << endl;\par
+161         \}\par
+162         cout << endl;\par
+163     \}\par
+164 \par
+169     {\cf18 string} CreatePPM(){\cf17  const}\par
+170 {\cf17     }\{\par
+171         stringstream img_content;\par
+172 \par
+173         img_content << {\cf22 "P3"} << endl;\par
+174         img_content << width << {\cf22 " "} << height << endl;\par
+175         img_content << max_color << endl;\par
+176 \par
+178         {\cf19 for} ({\cf18 int} i = 0; i < size; i += 3)\par
+179         \{\par
+180             img_content << pixel_array[i] << {\cf22 " "} << pixel_array[i + 1] << {\cf22 " "} << pixel_array[i + 2] << {\cf22 " "};\par
+181             {\cf19 if} ((i / 3 + 1) % width == 0)\par
+182             \{\par
+183                 img_content << endl; \par
+184             \}\par
+185         \}\par
+186         {\cf19 return} img_content.str();\par
+187     \}\par
+188 \par
+194     {\cf18 bool} ReadPPM({\cf17 const} {\cf18 string} &file_name)\par
+195     \{\par
+197         ifstream file(file_name);\par
+198         {\cf19 if} (!file)\par
+199         \{\par
+200             cerr << {\cf22 "\\033[31mErro de leitura. O arquivo"} << file_name << {\cf22 " n\'E3o existe.\\033[0m\\n"}; \par
+201             {\cf19 return} {\cf17 false};\par
+202         \}\par
+203 \par
+204         {\cf18 string} file_type;\par
+205         file >> file_type;\par
+206 \par
+207     \par
+208 \par
+210         {\cf19 if} (file_type != {\cf22 "P3"})\par
+211         \{\par
+212             cerr << {\cf22 "\\033[31mErro de leitura. O arquivo "} << file_name << {\cf22 " n\'E3o \'E9 uma imagem PPM no formato P3.\\033[0m\\n"} << endl; \par
+213             {\cf19 return} {\cf17 false};\par
+214         \}\par
+215 \par
+216         file >> width >> height >> max_color;\par
+217         size = width * height * 3;\par
+218 \par
+219         AllocatePixels();\par
+220 \par
+222         pixel_array = {\cf17 new} {\cf18 int}[size];\par
+223         {\cf18 int} index = 0;\par
+224 \par
+225         {\cf19 for} ({\cf18 int} h = 0; h < height; h++)\par
+226         \{\par
+227             {\cf19 for} ({\cf18 int} w = 0; w < width; w++)\par
+228             \{\par
+229                 {\cf18 int} r, g, b;\par
+230                 file >> r >> g >> b;\par
+231                 pixel[h][w].r = r;\par
+232                 pixel[h][w].g = g;\par
+233                 pixel[h][w].b = b;\par
+235                 pixel_array[index++] = r;\par
+236                 pixel_array[index++] = g;\par
+237                 pixel_array[index++] = b;\par
+238             \}\par
+239         \}\par
+240         file.close();\par
+241         {\cf19 return} {\cf17 true};\par
+242     \}\par
+243 \par
+247     {\cf18 void} ShowArray(){\cf17  const}\par
+248 {\cf17     }\{\par
+249         {\cf19 if} (pixel_array == {\cf17 nullptr})\par
+250         \{\par
+251             cout << {\cf22 "Array n\'E3o inicializado."} << endl;\par
+252             {\cf19 return};\par
+253         \}\par
+254         {\cf19 for} ({\cf18 int} i = 0; i < size; i += 3)\par
+255         \{\par
+256             cout << {\cf22 "Pixel ["} << i / 3 << {\cf22 "]: R = "} << pixel_array[i] << {\cf22 ", G = "} << pixel_array[i + 1]\par
+257                  << {\cf22 ", B = "} << pixel_array[i + 2] << endl;\par
+258         \}\par
+259     \}\par
+260 \par
+267     {\cf18 string} IntToBin({\cf18 int} num, {\cf18 int} bits = 8)\par
+268     \{\par
+270         {\cf19 if} (bits == 0)\par
+271         \{\par
+272             {\cf19 return} {\cf22 ""};\par
+273         \}\par
+274         \par
+276         {\cf18 int} bit_current = num % 2;\par
+277 \par
+279         {\cf18 string} bit_subsequent = IntToBin(num / 2, bits - 1);\par
+280 \par
+281         {\cf19 return} bit_subsequent + (bit_current == 0 ? {\cf23 '0'} : {\cf23 '1'});\par
+282     \}\par
+283 \par
+288     {\cf18 void} CodeMsg({\cf18 string} msg)\par
+289     \{\par
+290         {\cf18 int} t = msg.size(); \par
+291         {\cf18 int} chars[t]; \par
+294         {\cf19 for} ({\cf18 int} i = 0; i < t; ++i)\par
+295         \{\par
+296             chars[i] = (int)msg[i];\par
+297         \}\par
+298 \par
+300         {\cf18 string} bin = IntToBin(t);\par
+301 \par
+303         {\cf19 for} ({\cf18 int} i = 0; i < 8 && i < size; ++i)\par
+304         \{\par
+305             {\cf19 if} (bin[i] == {\cf23 '1'})\par
+306             \{\par
+307                 {\cf19 if} (pixel_array[i] % 2 == 0)\par
+308                 \{\par
+309                     pixel_array[i]++;\par
+310                 \}\par
+311             \}\par
+312             {\cf19 else}\par
+313             \{\par
+314                 {\cf19 if} (pixel_array[i] % 2 != 0)\par
+315                 \{\par
+316                     pixel_array[i]++;\par
+317                 \}\par
+318             \}\par
+319         \}\par
+320 \par
+322         {\cf18 int} bit_index = 0; \par
+323         {\cf19 for} ({\cf18 int} j = 0; j < t; ++j)\par
+324         \{\par
+325             bin = IntToBin(chars[j]);\par
+326             {\cf19 for} ({\cf18 int} i = 0; i < 8 && (bit_index + 8) < size; ++i, ++bit_index)\par
+327             \{\par
+328                 {\cf19 if} (bin[i] == {\cf23 '1'})\par
+329                 \{\par
+330                     {\cf19 if} (pixel_array[bit_index + 8] % 2 == 0)\par
+331                     \{\par
+332                         pixel_array[bit_index + 8]++;\par
+333                     \}\par
+334                 \}\par
+335                 {\cf19 else}\par
+336                 \{\par
+337                     {\cf19 if} (pixel_array[bit_index + 8] % 2 != 0)\par
+338                     \{\par
+339                         pixel_array[bit_index + 8]++;\par
+340                         {\cf19 if} (pixel_array[bit_index + 8] == 255)\par
+341                         \{\par
+342                             pixel_array[bit_index + 8]--;\par
+343                         \}\par
+344                     \}\par
+345                 \}\par
+346             \}\par
+347         \}\par
+348     \}\par
+349 \par
+356     {\cf18 int} BinToInt({\cf18 string} bin_num, {\cf18 int} index = 0)\par
+357     \{\par
+359         {\cf19 if} (index == bin_num.length())\par
+360         \{\par
+361             {\cf19 return} 0;\par
+362         \}\par
+363 \par
+365         {\cf18 int} value_current = (bin_num[index] - {\cf23 '0'}) * pow(2, bin_num.length() - 1 - index);\par
+366         {\cf18 int} value_subsequent = BinToInt(bin_num, index + 1);\par
+367 \par
+368         {\cf19 return} value_current + value_subsequent;\par
+369     \}\par
+370 \par
+374     {\cf18 void} DecodeMsg()\par
+375     \{\par
+376         {\cf18 string} bin_size; \par
+379         {\cf19 for} ({\cf18 int} i = 0; i < 8; ++i)\par
+380         \{\par
+381             {\cf19 if} (pixel_array[i] % 2 == 0)\par
+382             \{\par
+383                 bin_size.push_back({\cf23 '0'}); \par
+384             \}\par
+385             {\cf19 else}\par
+386             \{\par
+387                 bin_size.push_back({\cf23 '1'}); \par
+388             \}\par
+389         \}\par
+390 \par
+391         {\cf18 string} bin_msg; \par
+392         {\cf18 int} msg_size = BinToInt(bin_size); \par
+395         {\cf19 for} ({\cf18 int} i = 8; i < 8 + (msg_size * 8); ++i)\par
+396         \{\par
+397             {\cf19 if} (pixel_array[i] % 2 == 0)\par
+398             \{\par
+399                 bin_msg.push_back({\cf23 '0'}); \par
+400             \}\par
+401             {\cf19 else}\par
+402             \{\par
+403                 bin_msg.push_back({\cf23 '1'}); \par
+404             \}\par
+405         \}\par
+406 \par
+407         {\cf18 string} decoded_msg; \par
+410         {\cf19 for}({\cf18 int} j = 0; j < msg_size; ++j) \par
+411         \{   \par
+412             {\cf18 string} bin_char; \par
+415             {\cf19 for}({\cf18 int} i = 0; i < 8; ++i) \par
+416             \{\par
+417                 bin_char.push_back(bin_msg[i + (8 * j)]);\par
+418             \}\par
+419 \par
+420             {\cf18 char} single_char = BinToInt(bin_char); \par
+423             decoded_msg.push_back(single_char); \par
+424         \}\par
+425         cout << {\cf22 "\\033[94mA mensagem escondida \'E9: \\033[0m"} + decoded_msg << {\cf22 "\\n"};\par
+426     \}\par
+427 \};\par
+428 \par
+429 {\cf21 #endif}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
